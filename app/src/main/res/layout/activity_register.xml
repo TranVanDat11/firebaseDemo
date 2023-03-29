@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EFFDFC">
+
+    <TextView
+        android:id="@+id/tv_tilte"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đăng Ký Tài Khoản"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        />
+    <EditText
+        android:id="@+id/ed_name_rgt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_tilte"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Tên đăng nhập" />
+    <EditText
+        android:id="@+id/ed_pass_rgt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ed_name_rgt"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Mật khẩu" />
+    <EditText
+        android:id="@+id/ed_pass_res"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ed_pass_rgt"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Nhập lại mật khẩu" />
+
+    <Button
+        android:id="@+id/btn_registerRgt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ed_pass_res"
+        android:layout_margin="20dp"
+        android:background="@drawable/btn_bg"
+        android:text="Đăng Ký" />
+
+</RelativeLayout>
